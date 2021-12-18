@@ -7,4 +7,4 @@ export ALI_SK="AccessKey Secret"
 export ALI_OSS_ENDPOINT="Endpoint"
 ```
 ### 3、修改main.go代码中的BucketName为自己的Bucket
-### 4、build执行先执行`source etc/.secret.env`
+### 4、build之前先执行`source etc/.secret.env`
